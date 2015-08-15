@@ -8,12 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vague.whumap.MainActivity" >
 
-    <TextView
-        android:id="@+id/text_Info"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp" >
-    </TextView>
     
     <com.baidu.mapapi.map.MapView
         android:id="@+id/main_mapView"
