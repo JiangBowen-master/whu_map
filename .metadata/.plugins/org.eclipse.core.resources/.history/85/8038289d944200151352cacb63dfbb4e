@@ -1,0 +1,44 @@
+package com.vague.util;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import com.ithm.lotteryhm28.engine.UserEngine;
+
+/**
+ * 宸ュ��绫�
+ * @author Administrator
+ *
+ */
+public class BeanFactory {
+	// 渚�������缃����浠跺��杞藉��渚�
+	
+	private static Properties properties;
+	static{
+		properties=new Properties();
+		// bean.properties蹇�椤诲��src���璺����褰�涓�
+		try {
+			properties.load(BeanFactory.class.getClassLoader().getResourceAsStream("bean.properties"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	/**
+	 * ���杞介��瑕����瀹���扮被
+	 * @param clazz
+	 * @return
+	 */
+	public static<T> T getImpl(Class<T> clazz)
+	{
+		String key=clazz.getSimpleName();//clazz.getName()
+		String className = properties.getProperty(key);
+		try {
+			return (T) Class.forName(className).newInstance();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+}

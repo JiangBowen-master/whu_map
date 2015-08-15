@@ -1,0 +1,8 @@
+package com.vague.whumap;
+
+public class MyConstantValue {
+	
+	// BKey
+	String KEY = "BmZOp0Vyj2KGk8A9mq2TyGNX";
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.baidu.lbsapi.BMapManager"/>
+<fullyQualifiedTypeName name="com.vague.whumap.MyConstantValue"/>
+<fullyQualifiedTypeName name="com.baidu.lbsapi.MKGeneralListener"/>
+<fullyQualifiedTypeName name="android.util.Base64"/>
+<fullyQualifiedTypeName name="com.baidu.android.common.security.Base64"/>
+<fullyQualifiedTypeName name="com.vague.whumap.R"/>
+<fullyQualifiedTypeName name="com.vague.whumap.R.drawable"/>
+<fullyQualifiedTypeName name="com.vague.util.PromptManager"/>
+<fullyQualifiedTypeName name="com.baidu.mapapi.search.core.SearchResult.ERRORNO"/>
+<fullyQualifiedTypeName name="com.baidu.mapapi.SDKInitializer"/>
+</qualifiedTypeNameHistroy>
