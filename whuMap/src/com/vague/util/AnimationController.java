@@ -21,7 +21,7 @@ import android.view.animation.TranslateAnimation;
 public class AnimationController {
 	public static final int rela1 = Animation.RELATIVE_TO_SELF;
 	public static final int rela2 = Animation.RELATIVE_TO_PARENT;
-
+	//Õ∆ÀÕ≤‚ ‘”√
 	public static final int Default = -1;
 //	public static final int Linear = 0;
 //	public static final int Accelerate = 1;
