@@ -1,2 +1,2 @@
-# why_map
-this is an android app designed for tourist in why
+# whu_map
+武汉大学导游Android app
